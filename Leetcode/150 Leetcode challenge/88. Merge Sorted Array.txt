@@ -1,0 +1,20 @@
+# Intuition
+The problem seems to involve merging two sorted arrays `nums1` and `nums2`, where `nums1` has sufficient space at the end to accommodate all elements. Since the arrays are already sorted, the merging process should be relatively straightforward.
+
+# Approach
+The approach is to iterate through `nums2`, adding each element to the end of `nums1` starting from the index `m`, which represents the end of the non-zero elements in `nums1`. After adding all elements of `nums2` to `nums1`, we sort `nums1` to ensure it is in sorted order.
+
+# Complexity
+- Time complexity: $$O((m + n) \log (m + n))$$ due to the sorting operation using `Arrays.sort()`.
+- Space complexity: $$O(1)$$ since we're using only constant extra space.
+
+# Code
+```java
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        for (int i = 0; i < n; i++) {
+            nums1[m + i] = nums2[i];
+        }
+        Arrays.sort(nums1);
+    }
+}
