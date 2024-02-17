@@ -5,10 +5,10 @@ Welcome to my personal code repository! Here you can find solutions to various c
 ## Platforms
 
 ### LeetCode
-- [POTD](LeetCode/POTD)
-- [Contests](LeetCode/Contest)
-- [150 Days Challenge](LeetCode/150-Leetcode-challenge)
-- [Topic Wise](LeetCode/Topic-Wise)
+- [POTD](Leetcode/POTD)
+- [Contests](Leetcode/Contest)
+- [150 Days Challenge](Leetcode/150-Leetcode-challenge)
+- [Topic Wise](Leetcode/Topic-Wise)
 
 ### GeeksforGeeks
 - [POTD](GFG/POTD)
