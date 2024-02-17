@@ -7,13 +7,13 @@ Welcome to my personal code repository! Here you can find solutions to various c
 ### LeetCode
 - [POTD](LeetCode/POTD)
 - [Contests](LeetCode/Contest)
-- [150 Days Challenge](LeetCode/150 Leetcode challenge)
-- [Topic Wise](LeetCode/Topic Wise)
+- [150 Days Challenge](LeetCode/150-Leetcode-challenge)
+- [Topic Wise](LeetCode/Topic-Wise)
 
 ### GeeksforGeeks
 - [POTD](GFG/POTD)
 - [Contests](GFG/Contest)
-- [Topic Wise](GFG/Topic Wise)
+- [Topic Wise](GFG/TopicWise)
 
 ### Hackerrank
 - [Problems](Hackerrank)
