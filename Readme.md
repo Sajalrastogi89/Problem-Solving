@@ -5,7 +5,7 @@ Welcome to my personal code repository! Here you can find solutions to various c
 ## Platforms
 
 ### LeetCode
-- [POTD](LeetCode/POTD)
+- [POTD](Problem-Solving/LeetCode/POTD)
 - [Contests](LeetCode/Contest)
 - [150 Days Challenge](LeetCode/150-Leetcode-challenge)
 - [Topic Wise](LeetCode/Topic-Wise)
