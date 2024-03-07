@@ -19,7 +19,7 @@ Welcome to my personal code repository! Here you can find solutions to various c
 - [Problems](Hackerrank)
 
 ### Neetcode
--[Problems](Neetcode)
+- [Problems](Neetcode)
 
 ## Contributions
 Contributions are welcome! If you have a solution to a problem that isn't already included or have a better solution for an existing problem, feel free to submit a pull request.
