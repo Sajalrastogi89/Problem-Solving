@@ -1,0 +1,45 @@
+# Intuition
+The intuition behind this approach is to use a HashSet to store unique elements from one of the arrays (nums1). Then, iterate through the second array (nums2) and check if each element exists in the HashSet. If it does, add it to an ArrayList. Finally, convert the ArrayList to an array and return it as the intersection of the two arrays.
+
+# Approach
+1. Create a HashSet to store unique elements from nums1.
+2. Iterate through nums2, check if each element exists in the HashSet, and if so, add it to an ArrayList while removing it from the HashSet to avoid duplicates.
+3. Convert the ArrayList to an array and return it.
+
+# Complexity
+- Time complexity: O(m + n), where m is the length of nums1 and n is the length of nums2. The loop to add elements to the HashSet takes O(m), and the loop to check for intersection takes O(n).
+- Space complexity: O(min(m, n)), where m is the length of nums1 and n is the length of nums2. The space used by the HashSet and ArrayList will depend on the smaller of the two arrays.
+  
+# Code
+```java
+import java.util.ArrayList;
+import java.util.HashSet;
+
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        HashSet<Integer> H = new HashSet<>();
+        ArrayList<Integer> A = new ArrayList<>();
+        
+        // Add elements from nums1 to HashSet
+        for (int i = 0; i < nums1.length; i++) {
+            H.add(nums1[i]);
+        }
+        
+        // Check for intersection with nums2 and add to ArrayList
+        for (int i = 0; i < nums2.length; i++) {
+            if (H.contains(nums2[i])) {
+                A.add(nums2[i]);
+                H.remove(nums2[i]);
+            }
+        }
+        
+        // Convert ArrayList to array
+        int n = A.size();
+        int ans[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            ans[i] = A.get(i);
+        }
+        
+        return ans;
+    }
+}
