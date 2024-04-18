@@ -1,0 +1,36 @@
+# Intuition
+My first thoughts on solving this problem were to iterate through each cell of the grid and count the perimeter of each island.
+
+# Approach
+My approach involved iterating through each cell of the grid. For each cell containing land (marked as 1), I added 4 to the perimeter count. Then, I checked neighboring cells to subtract 2 from the perimeter for each adjacent land cell. This approach efficiently calculates the total perimeter of the islands in the grid.
+
+# Complexity
+- Time complexity:
+The time complexity of this solution is O(n*m), where n is the number of rows and m is the number of columns in the grid.
+
+- Space complexity:
+The space complexity of this solution is O(1), as we only use a constant amount of extra space.
+
+# Code
+```java
+class Solution {
+    public int islandPerimeter(int[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        int perimeter = 0;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (grid[i][j] == 1) {
+                    perimeter += 4;
+                    if (j > 0 && grid[i][j - 1] == 1) {
+                        perimeter -= 2;
+                    }
+                    if (i > 0 && grid[i - 1][j] == 1) {
+                        perimeter -= 2;
+                    }
+                }
+            }
+        }
+        return perimeter;
+    }
+}
