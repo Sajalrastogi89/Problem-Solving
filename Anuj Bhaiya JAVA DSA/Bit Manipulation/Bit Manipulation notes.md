@@ -75,16 +75,6 @@ int result = a >> 1; // 0010 in binary, which is 2 (5 / 2)
 ### For checking even and odd
 - Modulo is expensive operation so we use n&1==0 => even else odd
 
-### Swap two numbers without using temp variable
-```java
-Copy code
-int a=5;
-int b=7;
-a=a^b;
-b=a^b;
-a=a^b;
-```
-
 ## Common Bit Manipulation Techniques
 ### Setting a Bit
 - **Formula**: number | (1 << bitPosition)
