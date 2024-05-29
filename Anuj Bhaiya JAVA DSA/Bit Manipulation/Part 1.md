@@ -8,12 +8,12 @@
 
 ## Addition
 - **Formula**: 
-    -2*n + remainder => write remainder and make n as carry
+2*n + remainder => write remainder and make n as carry
 
 ## Substraction
 - **Formula**: 
 when you have to do substraction then convert second number to to its 2s compliment and then add with first number
-    -2*n + remainder => write remainder and make n as carry
+2*n + remainder => write remainder and make n as carry
 
 ## Bitwise Operators
 ### AND (&)
