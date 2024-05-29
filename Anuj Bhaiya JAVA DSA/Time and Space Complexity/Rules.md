@@ -9,11 +9,8 @@ This document outlines the time complexity rules for various lengths of data. Th
 ### Length ≤ 10
 - **Time Complexity**: \( O(n!) \), \( O(n^6) \)
 
-### Length 11 - 15
-- **Time Complexity**: \( O(2^n \cdot n^2) \)
-
 ### Length 16 - 18
-- **Time Complexity**: \( O(2^n \cdot n^2) \)
+- **Time Complexity**: \( O(2^n * n^2) \)
 
 ### Length 100
 - **Time Complexity**: \( O(n^4) \)
@@ -22,13 +19,13 @@ This document outlines the time complexity rules for various lengths of data. Th
 - **Time Complexity**: \( O(n^3) \)
 
 ### Length 2000
-- **Time Complexity**: \( O(n^2 \log n) \)
+- **Time Complexity**: \( O(n^2 * log n) \)
 
 ### Length 10^4
 - **Time Complexity**: \( O(n^2) \)
 
 ### Length 10^6
-- **Time Complexity**: \( O(n \log n) \)
+- **Time Complexity**: \( O(n * log n) \)
 
 ### Length 10^8
-- **Time Complexity**: \( O(n) \), \( O(\log n) \)
+- **Time Complexity**: \( O(n) \), \( O(log n) \)
