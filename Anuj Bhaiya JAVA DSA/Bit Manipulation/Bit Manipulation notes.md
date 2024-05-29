@@ -190,3 +190,7 @@ int countOnes(int num) {
     return count;
 }
 ```
+
+### Important Points
+- n^n=0
+- n^0=n
