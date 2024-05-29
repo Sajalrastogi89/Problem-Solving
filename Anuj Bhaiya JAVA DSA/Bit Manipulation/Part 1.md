@@ -6,6 +6,15 @@
   - **Decimal to Binary**: Divide by 2 and record remainders.
   - **Binary to Decimal**: Sum each bit multiplied by 2 raised to its position power.
 
+## Addition
+- **Formula**: 
+    -2*n + remainder => write remainder and make n as carry
+
+## Substraction
+- **Formula**: 
+when you have to do substraction then convert second number to to its 2s compliment and then add with first number
+    -2*n + remainder => write remainder and make n as carry
+
 ## Bitwise Operators
 ### AND (&)
 - **Usage**: Sets each bit to 1 if both corresponding bits are 1.
