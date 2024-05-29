@@ -7,7 +7,7 @@
   - **Binary to Decimal**: Sum each bit multiplied by 2 raised to its position power.
 
 ## Bitwise Operators
-### AND (`&`)
+### AND (&)
 - **Usage**: Sets each bit to 1 if both corresponding bits are 1.
 - **Example**:
   ```java

@@ -59,4 +59,4 @@ class Solution {
         }
         return dp[ind][W] = Math.min(take, notTake);
     }
-}
+} 
