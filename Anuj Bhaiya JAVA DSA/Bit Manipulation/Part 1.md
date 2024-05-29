@@ -119,13 +119,15 @@ int findSingle(int[] arr) {
 ```
 
 ## Swapping two numbers without a temporary variable:
+
 ```java
 Copy code
 void swap(int x, int y) {
     x = x ^ y;
     y = x ^ y;
     x = x ^ y;
-}```
+}
+```
 
 ## Counting Set Bits
 - **Counting the number of 1s in a binary number**:
@@ -138,7 +140,8 @@ int countOnes(int num) {
         num >>= 1;
     }
     return count;
-}```
+} 
+```
 
 ## Bit Masking
 - **Creating masks for specific tasks**:
@@ -147,7 +150,8 @@ Copy code
 // Example: extracting the k-th bit
 int extractBit(int number, int k) {
     return (number & (1 << k)) != 0 ? 1 : 0;
-}```
+} 
+```
 
 ## Practice Problems
 - **Single Non-Duplicate Element**:
@@ -159,7 +163,8 @@ int findSingle(int[] arr) {
         result ^= num;
     }
     return result;
-}```
+}
+```
 
 - **Counting the number of 1s**:
 ```java
@@ -171,4 +176,5 @@ int countOnes(int num) {
         num >>= 1;
     }
     return count;
-}```
+}
+```
