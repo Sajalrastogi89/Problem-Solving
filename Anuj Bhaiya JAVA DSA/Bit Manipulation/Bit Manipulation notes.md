@@ -193,4 +193,4 @@ int countOnes(int num) {
 
 ### Important Points
 - n^n=0 xor of same numbers give 0
-- n^0=n
+- n^0=n xor of any number with 0 gives same number
