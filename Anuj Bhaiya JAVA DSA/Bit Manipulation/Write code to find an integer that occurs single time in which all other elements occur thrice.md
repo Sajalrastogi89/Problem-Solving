@@ -14,9 +14,7 @@ The problem involves finding the non-repeating element in an array. We'll use bi
 - **Space complexity**: O(1) (since we use a fixed-size array `nums`).
 
 ```java
-package Striver.Recursion.Lecture1;
-
-public class dsnds {
+public class Main {
     public static void main(String[] args) {
         int[] A = {1, 1, 1, 2, 2, 2, 9, 3, 3, 3, 4, 5, 4, 5, 4, 5};
         int[] nums = new int[32];
