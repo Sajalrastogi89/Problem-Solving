@@ -13,7 +13,7 @@ The problem involves finding the non-repeating element in an array. We'll use bi
 - **Time complexity**: O(n), where n is the number of elements in the array.
 - **Space complexity**: O(1) (since we use a fixed-size array `nums`).
 
-```java
+```java 
 public class Main {
     public static void main(String[] args) {
         int[] A = {1, 1, 1, 2, 2, 2, 9, 3, 3, 3, 4, 5, 4, 5, 4, 5};
